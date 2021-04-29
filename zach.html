@@ -11,7 +11,9 @@
     <a-scene embedded arjs>
       
        <a-marker preset="pattern" type="pattern" url='https://raw.githubusercontent.com/jerickson991/personAR/main/pattern-nanner.patt'>
-    <a-entity environment="preset: forrest"><a-image
+         <a-sky color="blue"></a-sky>
+         <a-plane color="#222" rotation="-90 0 0" width="30" height="30"></a-plane>
+    <a-image
                     src="zachA.png"
                    scale="3 3 3"
                   position="0 1 0"
@@ -42,7 +44,8 @@
                    animation__4="property: opacity; dur:300; delay: 11200; from:1; to: 0; easing:linear">
                     
                    </a-image>
-           </a-entity>
+          
+         
          
        </a-marker>
 
