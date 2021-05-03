@@ -11,7 +11,14 @@
       
        <a-marker preset="pattern" type="pattern" url='https://raw.githubusercontent.com/jerickson991/personAR/main/pattern-nanner.patt'>
     
-         <a-sphere position="0 1 0" radius="0.25" material="color: red"></a-sphere>
+         <a-sphere position="0 1 0" radius="0.25" material="color: red">
+           <a-animation attribute="rotation"
+               dur="5000"
+               to="0 0 360"
+               easing= "linear"     
+               repeat="indefinite">
+        </a-animation>
+         </a-sphere>
        
        </a-marker>
 
